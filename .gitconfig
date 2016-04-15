@@ -1,0 +1,26 @@
+[user]
+	email = vlad.shcherbakov@gmail.com
+	name = Vlad Shcherbakov
+[alias]
+	incoming = log origin/master ^master
+	outcoming = log master ^origin/master
+	outgoing = log master ^origin/master
+	ck = checkout
+	br = branch
+	mr = merge
+	cm = commit
+	ps = push
+	pl = pull
+	df = diff
+	rs = reset
+	cl = clone
+	st = status
+	rl = reflog
+	cf = cat-file
+	instat = diff --stat master origin/master
+	gr = log --graph --decorate
+	fstat = "diff --stat origin/master ^master "
+	flog = log origin/master ^master
+	innames = log origin/master ^master --pretty=%an
+	fetchez-la-vache = fetch
+	lancez-la-vache = push
